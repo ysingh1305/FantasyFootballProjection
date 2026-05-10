@@ -1,0 +1,17 @@
+\begin{table}[!htbp]
+\caption{Tail-risk comparison on 2024. Quantile models are useful as ceiling estimates, but they are not replacements for calibrated expected-point projections.}
+\label{tab:tail}
+\centering
+\footnotesize
+\begin{tabular}{lrrrrr}
+\toprule
+Model & MAE & RMSE & 20+ MAE & 20+ under & $|e|\leq10$ \\
+\midrule
+Expected & 4.49 & 6.06 & 11.59 & 99.4\% & 90.7\% \\
+Boom-weighted & 4.74 & 6.24 & 10.21 & 97.4\% & 89.3\% \\
+Quantile p75 & 5.31 & 6.70 & 8.39 & 92.7\% & 86.8\% \\
+Quantile p90 & 8.14 & 9.39 & 5.38 & 71.0\% & 68.8\% \\
+Expected/p90 blend & 8.11 & 9.35 & 5.39 & 72.3\% & 69.1\% \\
+\bottomrule
+\end{tabular}
+\end{table}

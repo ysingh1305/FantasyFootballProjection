@@ -1,0 +1,15 @@
+\begin{table}[!htbp]
+\caption{Contextual comparison to published IBM/ESPN point-projection metrics. Green indicates the better value. Confidence intervals are player-cluster bootstrap intervals for our 2024 test set; the top-500 slice ranks players by 2024 total PPR points to better match the published top-500+ population.}
+\label{tab:espn-comparison}
+\centering
+\footnotesize
+\begin{tabular}{llrrr}
+\toprule
+Metric & Better & IBM/ESPN & All 2024 (95\% CI) & Top-500 (95\% CI) \\
+\midrule
+RMSE & Lower & \bad{6.78} & \good{6.06} [5.82, 6.29] & \good{6.13} [5.88, 6.37] \\
+Within 10 pts & Higher & \bad{88.2\%} & \good{90.7\%} [89.6, 91.7]\% & \good{90.4\%} [89.3, 91.5]\% \\
+Within 7 pts & Higher & \bad{71.0\%} & \good{80.2\%} [78.6, 81.8]\% & \good{79.6\%} [77.9, 81.3]\% \\
+\bottomrule
+\end{tabular}
+\end{table}

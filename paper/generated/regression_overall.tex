@@ -1,0 +1,14 @@
+\begin{table}[!htbp]
+\caption{Overall held-out 2024 point-projection performance across all positions.}
+\label{tab:regression-overall}
+\centering
+\footnotesize
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & MAE & RMSE & $R^2$ & $|e|\leq7$ & $|e|\leq10$ & 20+ MAE \\
+\midrule
+Original LightGBM expected & 4.67 & 6.25 & 0.401 & 79.8\% & 90.3\% & 12.04 \\
+Enhanced LightGBM expected & 4.49 & 6.06 & 0.437 & 80.2\% & 90.7\% & 11.59 \\
+\bottomrule
+\end{tabular}
+\end{table}

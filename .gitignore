@@ -68,3 +68,13 @@ logs/
 # Temporary files
 *.tmp
 *.temp
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+texput.log
+paper/main.pdf

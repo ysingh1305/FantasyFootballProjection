@@ -1,0 +1,7 @@
+comparison,scope,metric,display_name,better_direction,ibm_espn_published_estimate,our_estimate,our_ci_lower,our_ci_upper,delta_ours_minus_ibm_espn,ci_relation_to_published_point_estimate,confidence_level,bootstrap_unit,n_bootstrap,n_rows,n_players
+IBM/ESPN published point estimate vs our enhanced 2024 test metric,overall,rmse,RMSE,lower,6.78,6.0572,5.8212,6.2935,-0.7228,our_ci_entirely_better,0.95,player_id,10000,5755,558
+IBM/ESPN published point estimate vs our enhanced 2024 test metric,overall,within_10_points,Within 10 points,higher,0.882,0.9067,0.8961,0.9167,0.0247,our_ci_entirely_better,0.95,player_id,10000,5755,558
+IBM/ESPN published point estimate vs our enhanced 2024 test metric,overall,within_7_points,Within 7 points,higher,0.71,0.8021,0.7857,0.8181,0.0921,our_ci_entirely_better,0.95,player_id,10000,5755,558
+IBM/ESPN published point estimate vs our enhanced 2024 test metric,top500_total_ppr,rmse,RMSE,lower,6.78,6.1312,5.8845,6.3665,-0.6488,our_ci_entirely_better,0.95,player_id,10000,5583,500
+IBM/ESPN published point estimate vs our enhanced 2024 test metric,top500_total_ppr,within_10_points,Within 10 points,higher,0.882,0.9038,0.8927,0.9145,0.0218,our_ci_entirely_better,0.95,player_id,10000,5583,500
+IBM/ESPN published point estimate vs our enhanced 2024 test metric,top500_total_ppr,within_7_points,Within 7 points,higher,0.71,0.7962,0.7792,0.8132,0.0862,our_ci_entirely_better,0.95,player_id,10000,5583,500

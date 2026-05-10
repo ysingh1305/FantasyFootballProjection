@@ -1,0 +1,16 @@
+\begin{table}[!htbp]
+\caption{Original LightGBM feature ablation on the 2024 test season.}
+\label{tab:ablation}
+\centering
+\footnotesize
+\begin{tabular}{lrrrr}
+\toprule
+Feature set & Max feats. & QB RMSE & RB RMSE & WR/TE RMSE \\
+\midrule
+Rolling only & 36 & 8.07 & 6.45 & 6.05 \\
++ Previous season & 49 & 7.94 & 6.27 & 5.90 \\
+Full minus defense & 49 & 7.96 & 6.27 & 5.90 \\
++ Defensive matchup & 59 & 8.05 & 6.22 & 5.89 \\
+\bottomrule
+\end{tabular}
+\end{table}

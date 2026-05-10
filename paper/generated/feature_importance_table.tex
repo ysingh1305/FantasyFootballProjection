@@ -1,0 +1,15 @@
+\begin{table}[!htbp]
+\caption{Top enhanced expected-model LightGBM features by gain on the training/validation fit. Percentages are normalized within each position model.}
+\label{tab:importance}
+\centering
+\footnotesize
+\begin{tabular}{lp{0.76\linewidth}}
+\toprule
+Pos. & Top gain-based features \\
+\midrule
+QB & player fp\_roll8\_mean (11.1\%); team share\_completions\_roll3 mean (10.0\%); team share\_attempts\_roll5 mean (8.1\%); team share\_completions\_roll5 mean (7.7\%); team total\_attempts\_roll3 mean (6.7\%) \\
+RB & team share\_rushing\_yards\_roll5 mean (21.0\%); player fp\_roll8\_mean (18.2\%); team share\_rushing\_yards\_roll3 mean (12.7\%); player fp\_roll5 mean (7.9\%); team share\_carries\_lag1 (4.3\%) \\
+WR/TE & player fp\_roll8\_mean (45.7\%); player fp\_career\_mean\_prior (17.1\%); team share\_targets\_roll5 mean (6.2\%); player fp\_career\_p75\_prior (4.0\%); player fp\_roll5 mean (2.3\%) \\
+\bottomrule
+\end{tabular}
+\end{table}

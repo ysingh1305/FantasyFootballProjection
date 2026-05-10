@@ -1,0 +1,16 @@
+model,scope,metric,estimate,ci_lower,ci_upper,confidence_level,bootstrap_unit,n_bootstrap,n_rows,n_players
+enhanced_lightgbm_expected_tuned,overall,rmse,6.0572,5.8212,6.2935,0.95,player_id,10000,5755,558
+enhanced_lightgbm_expected_tuned,overall,within_10_points,0.9067,0.8961,0.9167,0.95,player_id,10000,5755,558
+enhanced_lightgbm_expected_tuned,overall,within_7_points,0.8021,0.7857,0.8181,0.95,player_id,10000,5755,558
+enhanced_lightgbm_expected_tuned,top500_total_ppr,rmse,6.1312,5.8845,6.3665,0.95,player_id,10000,5583,500
+enhanced_lightgbm_expected_tuned,top500_total_ppr,within_10_points,0.9038,0.8927,0.9145,0.95,player_id,10000,5583,500
+enhanced_lightgbm_expected_tuned,top500_total_ppr,within_7_points,0.7962,0.7792,0.8132,0.95,player_id,10000,5583,500
+enhanced_lightgbm_expected_tuned,QB,rmse,7.4411,6.9157,7.9684,0.95,player_id,10000,643,72
+enhanced_lightgbm_expected_tuned,QB,within_10_points,0.8258,0.7938,0.8578,0.95,player_id,10000,643,72
+enhanced_lightgbm_expected_tuned,QB,within_7_points,0.6625,0.6198,0.7051,0.95,player_id,10000,643,72
+enhanced_lightgbm_expected_tuned,RB,rmse,5.9991,5.5224,6.4781,0.95,player_id,10000,1452,124
+enhanced_lightgbm_expected_tuned,RB,within_10_points,0.9105,0.8872,0.9318,0.95,player_id,10000,1452,124
+enhanced_lightgbm_expected_tuned,RB,within_7_points,0.8106,0.7772,0.8435,0.95,player_id,10000,1452,124
+enhanced_lightgbm_expected_tuned,WRTE,rmse,5.8039,5.4915,6.1105,0.95,player_id,10000,3660,362
+enhanced_lightgbm_expected_tuned,WRTE,within_10_points,0.9194,0.9071,0.9313,0.95,player_id,10000,3660,362
+enhanced_lightgbm_expected_tuned,WRTE,within_7_points,0.8232,0.8031,0.8434,0.95,player_id,10000,3660,362

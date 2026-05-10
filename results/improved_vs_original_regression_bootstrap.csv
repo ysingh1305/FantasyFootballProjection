@@ -1,0 +1,5 @@
+metric,original_estimate,enhanced_estimate,improvement_estimate,improvement_ci_lower,improvement_ci_upper,confidence_level,bootstrap_unit,n_bootstrap,n_rows,n_players
+rmse,6.2504,6.0572,0.1933,0.1329,0.254,0.95,player_id,10000,5755,558
+mae,4.6749,4.4926,0.1823,0.1346,0.2311,0.95,player_id,10000,5755,558
+within_10_points,0.9027,0.9067,0.004,-0.0012,0.0091,0.95,player_id,10000,5755,558
+within_7_points,0.7983,0.8021,0.0038,-0.0035,0.011,0.95,player_id,10000,5755,558
